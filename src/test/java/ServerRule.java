@@ -5,7 +5,7 @@ public class ServerRule extends ExternalResource {
 
   protected void before() {
       String[] args = {};
-      RockPaper.main(args);
+      ChangeMachine.main(args);
    }
 
   protected void after() {
